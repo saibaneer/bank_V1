@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# Basic Sample Bank Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a simple Bank in Solidity. While it works, it has a bug, which resets the deposit time each time a user depositis. This potentially renders inaccurate interests.
 
-Try running some of the following tasks:
+I essentially modified this project from Questbook, so it can be deployed on Hardhat.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Use "npm i" to install dependencies at the root of the folder.
